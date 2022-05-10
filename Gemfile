@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+gem "avo", '2.5.2.pre.6'
+
+gem 'ransack'
