@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: redirect('/avo')
+
   scope :avo do
     get "custom_tool", to: "avo/tools#custom_tool"
   end
