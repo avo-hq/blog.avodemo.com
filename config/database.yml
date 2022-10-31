@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: avoblog_production
-  username: avoblog
-  password: <%= ENV["AVOBLOG_DATABASE_PASSWORD"] %>
+  url: <%= ENV["DATABASE_URL"] %>
